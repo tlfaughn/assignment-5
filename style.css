@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Roboto&display=swap');
+* {
+/* border: 1px solid red; */
+font-family: 'Heebo', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    background-color: #7f8989;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+.nav-container {
+    display: flex;
+    background-color: rgb(37, 36, 36);
+    justify-content: space-around;
+    padding: 15px;
+    margin: -5px;
+    font-size: x-large;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.navbar-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    height: 100%;
+}
+
+.nav-item {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-direction: column;
+    text-decoration: none;
+    white-space: nowrap;
+    color: white;
+}
+
+a:hover {
+    color: rgb(172, 143, 244)
+}
+
+#promotion-img, #background-img {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#background-img {
+    display: flex;
+    max-width: 80%;
+    margin-bottom: 3rem;
+    filter: drop-shadow(20px 20px 20px black)
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    position: absolute;
+    color: rgb(246, 243, 243);
+    left: 4rem;
+    top: 35rem;
+    background-color: rgb(41, 41, 41, 0.6);
+    padding: 0 1rem;
+    font-size: 2.5vw;
+}
+
+#promotion-img {
+    justify-content: flex-end;
+    margin-left: 295px;
+    margin-right: 1px;
+    object-fit: contain;
+    max-width: 80%;
+    margin-top: -3.1rem;
+    filter: drop-shadow(-20px -20px 20px black)
+    
+}
+
+#promo-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    position: absolute;
+    color: rgb(246, 243, 243);
+    left: 20rem;
+    top: 75rem;
+    background-color: rgb(41, 41, 41, 0.6);
+    padding: 0 1rem;
+    font-size: 2.5vw;
+}
+
+.membership-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgrey;
+    padding-top: 7px;
+    padding-bottom: 200px;
+    font-size: 1.7vh;
+    font-size: 1.7vw;
+}
+
+/* #button {
+    display: inline-block;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 250px;
+    text-align: center;
+    font-size: 2vw;
+    size: 2vw;
+    padding: 30px;
+} */
+
+.btn-blue {
+    background-color: #7f8989;
+    border-radius: 12px;
+    border: 1px transparent solid; /* transparent border */
+    color: black;
+    padding: 1px; /* remove 2px as we are now using the border */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3vw;
+    width: 30vw;
+    opacity: 2;
+    cursor: pointer;
+  }
+  
+  .btn-blue:hover
+  {
+    opacity: 1;
+    background-color: #c8e8e6;
+    border: 1px #99ccff solid;
+  }
+  
+  .btn-blue:active
+  {
+    background-color: #00CCC0;
+    border: 1px #000000 solid;
+  }
+
+  .membership-cost {
+    display: flex;
+    flex-direction: column;
+    font-size: 4vw;
+    font-size: 4vw;
+    padding-top: 60px;
+  }
+
+  #weekly, #monthly, #semi, #annual {
+    display: flex;
+    margin: 1.2vh;
+  }
+
+  footer {
+    margin-bottom: 0px;
+}
+
+.bottom {
+    background-color: rgb(37, 36, 36);
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+
+.map {
+    width: 250px;
+    padding: 2%;
+    padding-left: 100px;
+}
+
+.mapimg {
+    width: 250px;
+}
+
+.footinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    font: 0.6em;
+    margin: 3px;
+}
+
+.footdates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    font: 0.6em;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.foothead {
+    font-size: 2em;
+}
+
+.tiny {
+    margin: 10px;
+    color: white;
+}
